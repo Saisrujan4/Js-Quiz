@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: rgb(156, 133, 177);
+}
+div.quiz-container{
+    margin: 10% auto;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    border: 1px solid;
+    height:405px;
+    overflow: hidden;
+    box-shadow: 2px 2px 5px purple;
+}
+
+div.title{
+    font-size: 20px;
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+}
+
+div.quiz-header{
+    background-color: blueviolet;
+    padding:10px;
+    color:white;
+    display: flex;
+    width: 100%;
+}
+
+ul h3{
+    text-align: center;
+    font-size: 20px;
+    margin: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+ul{
+    padding: 10px;
+    list-style-type: none;
+}
+ul li{
+    padding: 5px 0px 5px 5px;
+    margin: 20px 0px;
+    border: 1px solid;
+    font-size: 18px;
+    border-radius: 50px;
+}
+
+ul label{
+    display: inline-block;
+    width: 99%;
+    padding-left: 20px;
+}
+
+button{
+    display: block;
+    margin: auto;
+    background-color:rgb(98, 145, 98);
+    color:white;
+    margin-bottom: 15px;
+    width: 20%;
+    border: none;
+    padding:4px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+button:hover{
+    background-color: rgb(124, 0, 255);
+    color:black;
+}
+
+li:hover{
+    background-color: rgb(120, 0, 200);
+    color: white;   
+}
+
+input{
+    display: none;
+}
+
+div.quiz-body{
+    background-color: azure;
+    height: 100%;
+}
+
+.opt-select{
+   color:white;
+   background-color: rgb(113, 188, 113);
+}
+
+h2{
+    color:rgb(164, 78, 78);
+    text-align: center;
+    font-size: 20px;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
